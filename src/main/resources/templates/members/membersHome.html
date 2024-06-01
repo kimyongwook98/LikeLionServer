@@ -1,0 +1,32 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>LE-SSERAFIM</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/colors.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <input id="night_day" type="button" value="night" onclick="nightDayHandler(this)">
+      <div id="title"><h1><a href="/">LE-SSERAFIM</a></h1></div>
+      <div id="grid">
+        <ol>
+          <div id="navigation">
+            <li style="margin-bottom:10px;"><a href="/team/sakura" style="text-decoration-line: none;">SAKURA</a></li>
+            <li style="margin-bottom:10px;"><a href="/team/chaewon" style="text-decoration-line: none;">CHAEWON</a></li>
+            <li style="margin-bottom:10px;"><a href="/team/yunjin" style="text-decoration-line: none;">YUNJIN</a></li>
+            <li style="margin-bottom:10px;"><a href="/team/kazuha" style="text-decoration-line: none;">KAZUHA</a></li>
+            <li style="margin-bottom:10px;"><a href="/team/eunchae" style="text-decoration-line: none;">EUNCHAE</a></li>
+            <li style="margin-bottom:10px;"><a href="/members/home" style="text-decoration-line: none;">방명록</a></li>
+          </div>
+        </ol>
+        <div id="article">
+          <h2>방명록</h2>
+          <h3><a href="/members/new">방명록 작성하기</a></h3>
+          <h3><a href="/members/list">방명록 조회하기</a></h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
