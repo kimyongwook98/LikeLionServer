@@ -23,15 +23,17 @@
         </ol>
         <div id="article">
           <h2>방명록 조회하기</h2>
-          <table>
+          <table class="table">
             <thead>
               <tr>
+                <th scope="col">#</th>
                 <th>이름</th>
                 <th>메세지</th>
               </tr>
             </thead>
             <tbody>
               <tr th:each="member : ${members}">
+                <th scope="row" th:text="${member.id}"></th>
                 <td th:text="${member.name}"></td>
                 <td th:text="${member.message}"></td>
               </tr>
